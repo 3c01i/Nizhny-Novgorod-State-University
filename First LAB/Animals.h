@@ -52,4 +52,5 @@ public:
 
 class frog : public ColdAnimals {
     float jump;
+    int jumpheight;
 };
