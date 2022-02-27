@@ -4,10 +4,11 @@ using namespace std;
 
 int main(){
   MilckAnimals pig;
-  Animals howl;
-  cin >> howl.weight;
+  Cat myrka;
   pig.SetDivide(Divide::plotoyad);
-  cout << pig.GetDivide(); 
-  cout << howl.weight;
+  myrka.eda=Eating::milck;
+  std::cin>>myrka.name;
+  cout << myrka.eda;
+  std::cout << myrka.name << std::endl;
   return 0;
 }

@@ -5,9 +5,13 @@ enum Divide {
   travoyad
 };
 
+enum Eating {
+    milck,
+    meat
+};
 class Animals {
 public:
-  char name;
+  char name[20];
   int weight;
 
   Divide GetDivide(){
@@ -29,4 +33,23 @@ public:
 class ColdAnimals : public Animals {
 public:
   int eat;
+};
+
+class Cat : public MilckAnimals {
+public:
+    Eating eda;
+};
+
+class Dog : public MilckAnimals {
+public:
+    Eating eda;
+};
+
+class Snake : public ColdAnimals {
+public:
+    float lenght;
+};
+
+class frog : public ColdAnimals {
+    float jump;
 };
