@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 enum Divide {
   vseyad,
   plotoyad,
@@ -10,47 +11,18 @@ enum Eating {
     meat
 };
 class Animals {
-public:
-  char name[20];
+protected:
+  std::string name;
   int weight;
-
-  Divide GetDivide(){
-    return(divide);
-  }
-
-  void SetDivide(Divide sdivide){
-    this->divide = sdivide;
-  }
+public:
+    int GetWeight();
+    void SetWeight(int weight);
+    std::string GetName();
+    void SetName(std::string name);
+    Divide GetDivide();
+    void SetDivide(Divide sdivide);
 private:  
   Divide divide;
 };
- 
-class MilckAnimals : public Animals {
-public:
-  int drink;
-};
 
-class ColdAnimals : public Animals {
-public:
-  int eat;
-};
 
-class Cat : public MilckAnimals {
-public:
-    Eating eda;
-};
-
-class Dog : public MilckAnimals {
-public:
-    Eating eda;
-};
-
-class Snake : public ColdAnimals {
-public:
-    float lenght;
-};
-
-class frog : public ColdAnimals {
-    float jump;
-    int jumpheight;
-};
