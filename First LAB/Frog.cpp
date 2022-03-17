@@ -10,5 +10,6 @@ float frog ::GetJumpheight() {
 }
 void frog ::SetJumpheight(float jumpheight) {
     this->jumpheight=jumpheight;
+    
 }
 
