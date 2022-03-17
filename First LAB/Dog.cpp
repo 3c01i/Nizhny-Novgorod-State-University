@@ -1,4 +1,7 @@
-//
-// Created by qapfuc on 3/15/22.
-//
-
+#include "Dog.h"
+Eating  Dog ::GetEda() {
+    return (eda);
+}
+void Dog ::SetEda(Eating eda) {
+    this->eda=eda;
+}

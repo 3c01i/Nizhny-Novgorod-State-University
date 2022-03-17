@@ -1,4 +1,7 @@
-//
-// Created by qapfuc on 3/15/22.
-//
-
+#include "Snake.h"
+float Snake ::GetLenght() {
+    return(lenght);
+}
+void Snake ::SetLenght(float lenght) {
+    this ->lenght=lenght;
+}

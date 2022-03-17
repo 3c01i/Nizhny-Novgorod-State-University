@@ -1,4 +1,14 @@
-//
-// Created by qapfuc on 3/15/22.
-//
+#include "frog.h"
+float frog ::GetJump() {
+    return(jump);
+}
+void frog ::SetJump(float jump) {
+    this->jump=jump;
+}
+float frog ::GetJumpheight() {
+    return(jumpheight);
+}
+void frog ::SetJumpheight(float jumpheight) {
+    this->jumpheight=jumpheight;
+}
 

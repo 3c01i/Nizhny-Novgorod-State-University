@@ -1,4 +1,8 @@
-//
-// Created by qapfuc on 3/15/22.
-//
+#include "ColdAnimals.h"
+int ColdAnimals ::GetEat() {
+    return(eat);
+}
+void ColdAnimals ::SetEat(int eat) {
+    this->eat=eat;
+}
 

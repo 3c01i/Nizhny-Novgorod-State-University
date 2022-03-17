@@ -1,4 +1,8 @@
-//
-// Created by qapfuc on 3/15/22.
-//
+#include "MilckAnimals.h"
+int MilckAnimals ::GetDrink() {
+    return(drink);
+}
+void MilckAnimals::SetDrink(int drink) {
+    this->drink=drink;
+}
 
