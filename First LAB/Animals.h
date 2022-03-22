@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <iostream>
+using namespace std;
 enum Divide {
   vseyad,
   plotoyad,
@@ -15,6 +17,7 @@ protected:
   std::string name;
   int weight;
 public:
+    virtual void PrintAnimals();
     int GetWeight();
     void SetWeight(int weight);
     std::string GetName();

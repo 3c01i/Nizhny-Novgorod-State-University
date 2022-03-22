@@ -5,4 +5,6 @@ int MilckAnimals ::GetDrink() {
 void MilckAnimals::SetDrink(int drink) {
     this->drink=drink;
 }
-
+void MilckAnimals::PrintAnimals() {
+    std::cout <<"MilckAnimals"<<endl;
+}

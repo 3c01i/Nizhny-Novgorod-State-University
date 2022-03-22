@@ -273,6 +273,30 @@ MilckAnimals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_LAB.dir/build.make CMakeFiles/First_LAB.dir/MilckAnimals.cpp.s
 .PHONY : MilckAnimals.cpp.s
 
+SetOfAnimals.o: SetOfAnimals.cpp.o
+.PHONY : SetOfAnimals.o
+
+# target to build an object file
+SetOfAnimals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_LAB.dir/build.make CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.o
+.PHONY : SetOfAnimals.cpp.o
+
+SetOfAnimals.i: SetOfAnimals.cpp.i
+.PHONY : SetOfAnimals.i
+
+# target to preprocess a source file
+SetOfAnimals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_LAB.dir/build.make CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.i
+.PHONY : SetOfAnimals.cpp.i
+
+SetOfAnimals.s: SetOfAnimals.cpp.s
+.PHONY : SetOfAnimals.s
+
+# target to generate assembly for a file
+SetOfAnimals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/First_LAB.dir/build.make CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.s
+.PHONY : SetOfAnimals.cpp.s
+
 Snake.o: Snake.cpp.o
 .PHONY : Snake.o
 
@@ -348,6 +372,9 @@ help:
 	@echo "... MilckAnimals.o"
 	@echo "... MilckAnimals.i"
 	@echo "... MilckAnimals.s"
+	@echo "... SetOfAnimals.o"
+	@echo "... SetOfAnimals.i"
+	@echo "... SetOfAnimals.s"
 	@echo "... Snake.o"
 	@echo "... Snake.i"
 	@echo "... Snake.s"

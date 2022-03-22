@@ -7,4 +7,5 @@ protected:
 public:
     int GetDrink();
     void SetDrink(int drink);
+    virtual void PrintAnimals();
 };

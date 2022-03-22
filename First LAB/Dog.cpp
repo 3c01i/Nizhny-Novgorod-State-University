@@ -5,3 +5,6 @@ Eating  Dog ::GetEda() {
 void Dog ::SetEda(Eating eda) {
     this->eda=eda;
 }
+void Dog::PrintAnimals() {
+    std::cout <<"Dog"<<endl;
+}

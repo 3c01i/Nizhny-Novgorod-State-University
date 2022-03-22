@@ -6,6 +6,7 @@ protected:
     float jump;
     int jumpheight;
 public:
+    virtual void PrintAnimals();
     float GetJump();
     void SetJump(float jump);
     float GetJumpheight();

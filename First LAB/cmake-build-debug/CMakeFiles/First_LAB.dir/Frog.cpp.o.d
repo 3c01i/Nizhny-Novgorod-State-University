@@ -1,6 +1,8 @@
-CMakeFiles/First_LAB.dir/main.cpp.o: \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/main.cpp \
+CMakeFiles/First_LAB.dir/Frog.cpp.o: \
+ /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/Frog.cpp \
  /usr/include/stdc-predef.h \
+ /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/frog.h \
+ /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/ColdAnimals.h \
  /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/Animals.h \
  /usr/include/c++/11.2.0/string \
  /usr/include/c++/11.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
@@ -150,11 +152,4 @@ CMakeFiles/First_LAB.dir/main.cpp.o: \
  /usr/include/c++/11.2.0/bits/locale_facets.tcc \
  /usr/include/c++/11.2.0/bits/basic_ios.tcc \
  /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
- /usr/include/c++/11.2.0/bits/istream.tcc \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/MilckAnimals.h \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/Cat.h \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/ColdAnimals.h \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/Dog.h \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/frog.h \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/Snake.h \
- /home/qapfuc/Documents/Nizhny-Novgorod-State-University/First\ LAB/SetOfAnimals.h
+ /usr/include/c++/11.2.0/bits/istream.tcc

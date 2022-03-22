@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/Dog.cpp" "CMakeFiles/First_LAB.dir/Dog.cpp.o" "gcc" "CMakeFiles/First_LAB.dir/Dog.cpp.o.d"
   "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/Frog.cpp" "CMakeFiles/First_LAB.dir/Frog.cpp.o" "gcc" "CMakeFiles/First_LAB.dir/Frog.cpp.o.d"
   "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/MilckAnimals.cpp" "CMakeFiles/First_LAB.dir/MilckAnimals.cpp.o" "gcc" "CMakeFiles/First_LAB.dir/MilckAnimals.cpp.o.d"
+  "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/SetOfAnimals.cpp" "CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.o" "gcc" "CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.o.d"
   "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/Snake.cpp" "CMakeFiles/First_LAB.dir/Snake.cpp.o" "gcc" "CMakeFiles/First_LAB.dir/Snake.cpp.o.d"
   "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/main.cpp" "CMakeFiles/First_LAB.dir/main.cpp.o" "gcc" "CMakeFiles/First_LAB.dir/main.cpp.o.d"
   )

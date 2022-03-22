@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/First_LAB.dir/Frog.cpp.o.d"
   "CMakeFiles/First_LAB.dir/MilckAnimals.cpp.o"
   "CMakeFiles/First_LAB.dir/MilckAnimals.cpp.o.d"
+  "CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.o"
+  "CMakeFiles/First_LAB.dir/SetOfAnimals.cpp.o.d"
   "CMakeFiles/First_LAB.dir/Snake.cpp.o"
   "CMakeFiles/First_LAB.dir/Snake.cpp.o.d"
   "CMakeFiles/First_LAB.dir/main.cpp.o"

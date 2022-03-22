@@ -11,16 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8cac2ba-77fe-455e-896c-02368b540c95" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/ColdAnimals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/First LAB/ColdAnimals.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/Dog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/First LAB/Dog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/Frog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/First LAB/Frog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/MilckAnimals.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/First LAB/MilckAnimals.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/Snake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/First LAB/Snake.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-15T10-48-52-0031.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/First LAB/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/First LAB/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="c8cac2ba-77fe-455e-896c-02368b540c95" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +20,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -54,12 +44,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="First_LAB" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="First_LAB" TARGET_NAME="First_LAB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="First_LAB" RUN_TARGET_NAME="First_LAB">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="First_LAB" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="First_LAB" TARGET_NAME="First_LAB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="First_LAB" RUN_TARGET_NAME="First_LAB">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -74,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647512234320</updated>
       <workItem from="1647512237286" duration="1835000" />
+      <workItem from="1647929358699" duration="66000" />
     </task>
     <servers />
   </component>

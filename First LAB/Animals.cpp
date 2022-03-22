@@ -18,3 +18,6 @@ void Animals :: SetDivide(Divide sdivide){
     this->divide = sdivide;
     
 }
+void Animals::PrintAnimals() {
+    std::cout <<"animals"<<endl;
+}

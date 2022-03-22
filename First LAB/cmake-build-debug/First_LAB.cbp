@@ -117,6 +117,12 @@
 		<Unit filename="/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/MilckAnimals.h">
 			<Option target="First_LAB"/>
 		</Unit>
+		<Unit filename="/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/SetOfAnimals.cpp">
+			<Option target="First_LAB"/>
+		</Unit>
+		<Unit filename="/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/SetOfAnimals.h">
+			<Option target="First_LAB"/>
+		</Unit>
 		<Unit filename="/home/qapfuc/Documents/Nizhny-Novgorod-State-University/First LAB/Snake.cpp">
 			<Option target="First_LAB"/>
 		</Unit>

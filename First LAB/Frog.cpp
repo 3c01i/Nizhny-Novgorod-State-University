@@ -12,4 +12,8 @@ void frog ::SetJumpheight(float jumpheight) {
     this->jumpheight=jumpheight;
     
 }
+void frog::PrintAnimals() {
+    std::cout <<"frog"<<endl;
+}
+
 
