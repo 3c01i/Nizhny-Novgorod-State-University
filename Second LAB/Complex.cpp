@@ -2,12 +2,11 @@
 #include "Complex.h"
 #include <cmath>
 
-#define PI 3,14159265
-
 Complex::Complex(double ValueRe, double ValueIm) {
     Re=ValueRe;
     Im=ValueIm;
 }
+
 Complex::Complex() {
     Re = 0;
     Im = 0;
@@ -17,7 +16,6 @@ Complex::Complex(const Complex &other) {
     this->Re=other.Re;
 
 }
-
 
 void Complex::Print() {
     std::cout<<"Re= "<<Re<<" Im= "<<Im<<"*i"<<endl<<endl;
@@ -82,8 +80,11 @@ double Complex::ModComplex() {
 
 Complex Complex::ExpComplex(double n) {
     Complex result;
-    result.SetRe(pow((this->ModComplex()),n)*cos(n*this->injection()));
-    result.SetIm(pow((this->ModComplex()),n)*sin(n*this->injection()));
+    double injection,modcomplex;
+    injection = this->injection();
+    modcomplex = this->ModComplex();
+    result.SetRe(pow(modcomplex,n)*cos(n*injection));
+    result.SetIm(pow(modcomplex,n)*sin(n*injection));
     return result;
 }
 
