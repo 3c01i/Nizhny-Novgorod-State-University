@@ -25,7 +25,13 @@ public:
     //
     Complex operator+ (Complex STerm);
     Complex operator= (Complex Second);
-    bool operator== (Complex &Second);
-    bool operator!= (Complex &Second);
-    ostream& operator<< (Complex Input);
+
+
+
+    friend istream& operator>>(istream &in, Complex& Output);
 };
+ostream& operator<< (ostream& os, Complex Input);
+istream& operator>>(istream &in, Complex& Output);
+
+bool operator== (Complex &First,Complex &Second);
+bool operator!= (Complex &First,Complex &Second);

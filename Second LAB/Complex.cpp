@@ -37,7 +37,7 @@ void Complex::SetRe(double Re) {
     this->Re=Re;
 }
 
-Complex Complex::operator+ (Complex STerm) {
+Complex Complex::operator+(Complex STerm) {
     Complex Total;
     Total.Im = Im + STerm.Im;
     Total.Re = Re + STerm.Re;
@@ -52,14 +52,22 @@ Complex Complex::operator=(Complex Second) {
     return(*this);
 }
 
-bool Complex::operator== (Complex &Second) {
-    return(Im == Second.Im && Re == Second.Re);
+bool operator!=(Complex &First,Complex &Second) {
+    return(!(First == Second));
 }
 
-bool Complex::operator!=(Complex &Second) {
-    return(!(*this == Second));
+ostream& operator<< (ostream& os, Complex Input) {
+    return os <<Input.GetIm() << " " << Input.GetRe();
 }
 
-ostream& Complex::operator<< ( Complex Input) {
-    return (cout<<Input.GetIm() << " " << Input.GetRe());
+istream& operator>>(istream &in, Complex& Output){
+    double a,b;
+    in >>a >> b;
+    Output.SetIm(a);
+    Output.SetRe(b);
+    return in;
+}
+
+bool operator== (Complex &First,Complex &Second) {
+    return(First.GetIm() == Second.GetIm() && First.GetRe() == Second.GetRe());
 }
