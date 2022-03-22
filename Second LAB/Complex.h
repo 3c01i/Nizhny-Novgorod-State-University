@@ -13,9 +13,14 @@ public:
     void SetIm(double Im);
     double GetRe();
     void SetRe(double Re);
+    double ModComplex();
+    Complex ExpComplex(double n);
+    double injection();
+
 
 
     void Print();
+    void PrintComplex();
 
 
     Complex();

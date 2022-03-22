@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    Complex x(6, 22), u(-10, 0), l(0, 0);
+    Complex b,x(6, 22), u(-10, 0), l(0, 0);
     bool reas;
     x.Print();
     u.Print();
@@ -16,6 +16,8 @@ int main() {
     reas = u == x;
     std::cout<<reas<<endl;
     std::cin>>x;
-    std::cout<<x;
+    x.PrintComplex();
+    b=x.ExpComplex(4);
+    b.Print();
     return 0;
 }
