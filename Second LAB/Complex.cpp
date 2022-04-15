@@ -52,6 +52,18 @@ Complex Complex::operator=(Complex Second) {
     return(*this);
 }
 
+Complex Complex::operator*(Complex STerm)
+{
+    return Complex((this->Re * STerm.Re)-(this->Im * STerm.Im), (this->Re * STerm.Im) + (this->Im * STerm.Re));
+}
+
+Complex Complex::operator/(Complex STerm)
+{
+    double _Re = (this->Re * STerm.Re + this->Im * STerm.Im) / (pow(STerm.Re,2) + pow(STerm.Im, 2));
+    double _Im = (this->Im * STerm.Re - this->Re * STerm.Im) / (pow(STerm.Re, 2) + pow(STerm.Im, 2));
+    return Complex(_Re, _Im);
+}
+
 bool operator!=(Complex &First,Complex &Second) {
     return(!(First == Second));
 }
@@ -77,7 +89,7 @@ double Complex::ModComplex() {
     mod = pow((pow(Im,2)+pow(Re,2)),0.5);
     return(mod);
 }
-
+//Возведение в степени положительную отрацательную целую и дробную извлечение корня
 Complex Complex::ExpComplex(double n) {
     Complex result;
     double injection,modcomplex;

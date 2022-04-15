@@ -26,10 +26,11 @@ public:
     Complex();
     Complex(double ValueIm,double ValueRe);
     Complex(const Complex &other);
-
     //
     Complex operator+ (Complex STerm);
     Complex operator= (Complex Second);
+    Complex operator* (Complex STerm);
+    Complex operator/ (Complex STerm);
 
 
 

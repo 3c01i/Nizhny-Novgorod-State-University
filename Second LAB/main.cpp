@@ -9,7 +9,7 @@ int main() {
     x.Print();
     u.Print();
     reas = u == x;
-    std::cout<<reas<<endl;
+    std::cout<<x*u<<endl;
     u=x;
     x.Print();
     u.Print();
