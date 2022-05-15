@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Forth_LAB",
+					"name" : "Fourth_LAB",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Forth_LAB::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Forth_LAB-Debug-a9f2ead2f58c85fd2d2f.json",
-					"name" : "Forth_LAB",
+					"id" : "Fourth_LAB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fourth_LAB-Debug-f0a35ff4061093ef7df7.json",
+					"name" : "Fourth_LAB",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/Forth LAB/cmake-build-debug",
-		"source" : "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/Forth LAB"
+		"build" : "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/Fourth LAB/cmake-build-debug",
+		"source" : "/home/qapfuc/Documents/Nizhny-Novgorod-State-University/Fourth LAB"
 	},
 	"version" : 
 	{
