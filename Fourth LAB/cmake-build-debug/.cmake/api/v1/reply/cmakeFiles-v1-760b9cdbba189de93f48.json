@@ -120,6 +120,12 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/app/extra/clion/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "vector/CMakeLists.txt"
+		},
+		{
+			"path" : "vectorLib/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

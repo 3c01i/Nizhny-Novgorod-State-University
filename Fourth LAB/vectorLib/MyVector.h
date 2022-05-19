@@ -6,6 +6,12 @@ protected:
 		ClassName* ArrayVector;
 		int ArraySize = 3;
 public:
+		ClassName GetArrayVector(int index){
+			return ArrayVector[index];
+		}
+		int GetSize(){
+			return ArraySize;
+		}
 		//Конструкторы
 		MyVector(){
 			ArrayVector = new ClassName[ArraySize];
