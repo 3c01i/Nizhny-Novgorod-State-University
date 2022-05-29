@@ -49,7 +49,7 @@ public:
 		int& operator[](const int index){
 			return ArrayVector[index];
 		};
-		MyVector operator=(MyVector<ClassName> other){
+		MyVector<ClassName> operator=(MyVector<ClassName> other){
 			if (ArraySize==other.ArraySize) {
 				for (int i = 0; i < ArraySize; i++) {
 					ArrayVector[i] = other.ArrayVector[i];
@@ -60,7 +60,7 @@ public:
 				abort();
 			}
 		};
-		MyVector operator+(MyVector<ClassName> other){
+		MyVector<ClassName> operator+(MyVector<ClassName> other){
 			if (ArraySize==other.ArraySize) {
 				MyVector<ClassName> temp(ArraySize);
 				for (int i = 0; i < ArraySize; i++) {
@@ -72,7 +72,7 @@ public:
 				abort();
 			}
 		};
-		MyVector operator-(MyVector<ClassName> other){
+		MyVector<ClassName> operator-(MyVector<ClassName> other){
 			if (ArraySize==other.ArraySize) {
 				MyVector<ClassName> temp(ArraySize);
 				for (int i = 0; i < ArraySize; i++) {
@@ -84,7 +84,7 @@ public:
 				abort();
 			}
 		};
-		MyVector operator*(MyVector<ClassName> other){
+		MyVector<ClassName> operator*(MyVector<ClassName> other){
 			if (ArraySize==other.ArraySize) {
 				MyVector<ClassName> temp(ArraySize);
 				for (int i = 0; i < ArraySize; i++) {
@@ -96,7 +96,7 @@ public:
 				abort();
 			}
 		};
-		MyVector operator/(MyVector<ClassName> other){
+		MyVector<ClassName> operator/(MyVector<ClassName> other){
 			if (ArraySize==other.ArraySize) {
 				MyVector<ClassName> temp(ArraySize);
 				for (int i = 0; i < ArraySize; i++) {

@@ -55,7 +55,7 @@ public:
 		auto operator[](const int index){
 			return ArrayMatrix[index];
 		};
-		MyMatrix& operator = (MyMatrix<ClassName> other) {
+		MyMatrix<ClassName>& operator = (MyMatrix<ClassName> other) {
 				for (int i = 0; i < ArraySize_x; i++) {
 					for (int j = 0; j < ArraySize_y; j++) {
 						ArrayMatrix[i][j] = other.ArrayMatrix[i][j];
@@ -63,7 +63,7 @@ public:
 				}
 				return *this;
 			};
-		MyMatrix operator+(MyMatrix<ClassName>& other){
+		MyMatrix<ClassName> operator+(MyMatrix<ClassName>& other){
 			if ((ArraySize_x == other.ArraySize_x) && (ArraySize_y == other.ArraySize_y)) {
 				MyMatrix<ClassName> temp(ArraySize_x, ArraySize_y);
 				for (int i = 0; i < ArraySize_x; i++) {
@@ -77,7 +77,7 @@ public:
 				abort();
 			}
 		};
-		MyMatrix operator-(MyMatrix<ClassName>& other){
+		MyMatrix<ClassName> operator-(MyMatrix<ClassName>& other){
 			if ((ArraySize_x == other.ArraySize_x) && (ArraySize_y == other.ArraySize_y)) {
 				MyMatrix<ClassName> temp(ArraySize_x, ArraySize_y);
 				for (int i = 0; i < ArraySize_x; i++) {
@@ -91,7 +91,7 @@ public:
 				abort();
 			}
 		};
-		MyMatrix operator*(MyMatrix<ClassName>& other){
+		MyMatrix<ClassName> operator*(MyMatrix<ClassName>& other){
 			if(ArraySize_y==other.ArraySize_x) {
 				MyMatrix<ClassName> temp(ArraySize_x, other.ArraySize_y);
 				for (int i = 0; i < ArraySize_x; i++) {
@@ -109,7 +109,7 @@ public:
 			}
 		};
 
-		MyMatrix operator*(MyVector<ClassName>& other){
+		MyMatrix<ClassName> operator*(MyVector<ClassName>& other){
 			if(ArraySize_y==other.GetSize()) {
 				MyMatrix<ClassName> temp(other.GetSize(),1);
 				for (int i = 0; i < temp.ArraySize_x; i++) {
